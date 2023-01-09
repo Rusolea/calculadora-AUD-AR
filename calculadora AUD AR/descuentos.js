@@ -14,7 +14,7 @@
   let valorEnPesos = parseInt(dolarTargeta * UsdAu);
 
   const resultP = document.getElementById("ResultP");
-  resultP.innerText = "El precio en pesos es: $" + valorEnPesos +  ", con un dolar targeta de  $" + dolarTargeta + ("!");
+  resultP.innerText = "El precio en pesos es: $" + valorEnPesos +  ", con un dolar tarjeta de  $" + dolarTargeta + ("!");
   
   console.log(priceValue)
   console.log(usdValue)
