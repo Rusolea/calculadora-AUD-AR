@@ -1,0 +1,82 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 79px;
+    background: transparent linear-gradient(270deg, #25B3B5 0%, #279D2D 100%) 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 19px 19px;
+    opacity: 1;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+h1{
+    padding-top: 40px;
+
+    text-align: center;
+    font: 23px Roboto;
+    letter-spacing: -0.21px;
+    color: #FEFEFE;
+    
+    }
+
+form{
+    padding-top: 161px;
+    display: grid;
+    justify-items: center;
+}    
+
+form label{
+    text-align: center;
+    font-family: bold Roboto;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 7px;
+}
+
+form input{
+    background-color: #F2F2F2;
+    text-align: center;
+    border:0; /* // remove default border */
+    border-bottom:1px solid #C2C2C2; /* add only bottom border */
+    font-size: 2.5rem;
+    color: #858585;
+
+}
+
+form button{
+    height: 40px;
+    border: none;
+    background: transparent linear-gradient(270deg, #25B3B5 0%, #279D2D 100%) 0% 0% no-repeat padding-box;
+    border-radius: 17px;
+    font-family: Roboto;
+    font-size: 2.3rem;
+    color: white;
+    margin-top: 34px;
+    width: 304px;
+
+}
+
+p{
+    text-align: center;
+    font-size: 2.3rem;
+    width: 300px;
+    margin-top: 22px;
+    color: #858585;
+    font-family: Roboto;
+    font-size: medium;
+    font-size: 2.3rem;
+
+}
